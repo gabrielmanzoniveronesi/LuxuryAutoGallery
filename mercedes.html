@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    .copertina {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .immagine-copertina {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .spazio {
+      padding: 20px;
+    }
+
+    .riga {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .colonne {
+      flex: 1;
+      min-width: 300px;
+      border: 0px solid #ddd;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .immagini {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+ 
+ 
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="mercedes.html" style="font-family:Georgia ;">Mercedes</a></li>
+    <li><a href="ferrari 1.html" style="font-family: Rockwell ;">Ferrari </a></li>
+    <li><a href="porsche.html" style="font-family:Century Gothic  ;">Porsche</a></li>
+    <li><a href="pagani.html" style="font-family:Times New Roman ;">Pagani</a></li>
+  </ul>
+ 
+ 
+ 
+ 
+   <section class="copertina">
+    <img src="sfondomercedes.jpg" alt="Pagani" class="immagine-copertina">
+  </section>
+
+
+ 
+    
+ 
+    <div class="spazio">
+      <h1 style="text-align: center;"><a style="font-family: Rockwell ;">Mercedes</a></h1>
+      <p style="text-align: center;">le nostre auto piu vendute</p>
+   
+    <div class="riga">
+      <div class="colonne">
+          <h2 style="text-align: center;">Mercedes-Maybach ClasseS</h2>
+          <img src="maybach.avif" style="display:block; margin: 0 auto; width:100%;">
+          <p style="text-align: center;font-family:'Times New Roman';">Motore: V8 biturbo<br>Anno: 2021 <br>500 cavalli <br>Prezzo: 187.580€</p>
+      </div>
+      <div class="colonne">
+          <h2 style="text-align: center;">Classe C Berlina</h2>
+          <img src="amg.avif" style="display:block; margin: 0 auto; width:100%;">
+          <p style="text-align: center;font-family:'Times New Roman';">Motore: ibride plug-in <br>Anno: 2021 <br>150 cavalli <br>Prezzo: 34.950€</p>
+      </div>
+      <div class="colonne">
+          <h2 style="text-align: center;">Classe G</h2>
+          <img src="classeg.avif" style="display:block; margin: 0 auto; width:100%;">
+          <p style="text-align: center;font-family:'Times New Roman';">Motore: V8 biturbo <br>Anno: 2018<br>800 cavalli <br>Prezzo: 140.000€ </p>
+      </div>
+  </div>
+ 
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* appunti ":hover" indica quando passi SOPRA con il cursore */
+li a:hover {
+  background-color: #111;
+}
+
+/* Seleziona tutta la pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+/* Nuova sezione copertina immagine */
+.copertina {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.copertina img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 50px;
+  background: #f5f5f5;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-4 {
+  flex: 1;
+  min-width: 300px;
+  border: 0px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+  </style>
+</head>
+<body>
+
+  
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="mercedes.html" style="font-family:Georgia ;">Mercedes</a></li>
+    <li><a href="ferrari.html" style="font-family: Rockwell ;">Ferrari </a></li>
+    <li><a href="porsche.html" style="font-family:Century Gothic  ;">Porsche</a></li>
+    <li><a href="pagani.html" style="font-family:Times New Roman ;">Pagani</a></li>
+  </ul>
+
+
+
+
+
+  <section class="copertina">
+  <img src="sfondoferrari.jpg" alt="Copertina ferrari">
+</section>
+
+
+  
+  <div class="container">
+    <h1 style="text-align: center;font-family:'Rockwell';">Ferrari</h1>
+    <h3 style="text-align: center;font-family:'Rockwell';">le nostre auto piu vendute<br></h3>
+
+  
+  
+    <div class="row">
+      <div class="col-4">
+          <h3 style="text-align: center;font-family:'Times New Roman';">Ferrari 812<br></h3>
+          <img src="ferrari6.jpg" style="display: block; margin: 0 auto; width: 70%;">
+          <p style="text-align: center;font-family:'Times New Roman';">Motore: v12 <br>Anno: 2017 <br>800 cavalli <br>Prezzo: 300.000€</p>
+      </div>
+      <div class="col-4">
+          <h3 style="text-align: center;font-family:'Times New Roman';">Ferrari 296</h3>
+          <img src="provaferr.avif" style="display: block; margin: 0 auto; width: 95%;">
+          <p style="text-align: center;font-family:'Times New Roman';">Motore: v6 biturbo ibrido <br>Anno: 2021 <br>830 cavalli <br>Prezzo: 450.000€</p>
+      </div>
+      <div class="col-4">
+          <h3 style="text-align: center;font-family:'Times New Roman';">F40<br></h3>
+          <img src="f40.png" style="display: block; margin: 0 auto; width: 80%;">
+          <p style="text-align: center;font-family:'Times New Roman';">Motore: v8 <br>Anno: 1986<br>750 cavalli <br>Prezzo: 6.000.000€ </p>
+      </div>
+  </div>
+    
+
+</body>
+</html>

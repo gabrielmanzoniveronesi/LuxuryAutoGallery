@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="logo.jpg">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    li b {
+      color: white;
+      text-align: left;
+    }
+
+    li b:hover {
+      background-color: #111;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .video {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .video-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .video h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Georgia, serif;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+      text-align: center;
+    }
+
+    li img {
+      width: 14px;
+      height: auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      padding: 30px;
+      background-color: #f4f4f4;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      padding: 60px;
+    }
+
+    .product {
+      text-align: center;
+      width: 300px;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border: 3px solid #ccc;
+    }
+
+    .product p {
+      margin: 5px 0;
+    }
+
+    .new-label {
+      font-size: 12px;
+      color: gray;
+    }
+
+    .spazio {
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="mercedes.html" style="font-family:Georgia;">Mercedes</a></li>
+  <li><a href="ferrari 1.html" style="font-family: Rockwell;">Ferrari</a></li>
+  <li><a href="porsche.html" style="font-family:Century Gothic;">Porsche</a></li>
+  <li><a href="pagani.html" style="font-family:Times New Roman;">Pagani</a></li>
+</ul>
+
+<section class="video">
+  <video class="video-video" autoplay muted loop>
+    <source src="videoindex.mp4" type="video/mp4">
+  </video>
+  <h1>ESPLORA IL MIGLIOR CONCESSIONARIO D'EUROPA</h1>
+</section>
+
+<div class="spazio">
+     <h2>Perché Scegliere Luxury Auto Gallery?</h2>
+
+    
+  <p style="text-align: center; font-family: Georgia, serif; margin-top: 30px;"><br>Esclusività: Offriamo solo i modelli più esclusivi e ricercati.<br> <br>Qualità: Ogni auto è sottoposta a rigorosi controlli di qualità. <br><br> Servizio Clienti: Un'esperienza unica pensata per soddisfare ogni vostra esigenza. <br><br>Finanziamenti su Misura: Possibilità di acquistare tramite soluzioni di pagamento flessibili e personalizzate.<br> <br>Assistenza Completa: Dalla consegna alla manutenzione, siamo con voi in ogni fase.</p>
+
+
+            
+</div>
+
+<h1 style="text-align: center; font-family: Georgia, serif; margin-top: 30px;">
+  Merchandising Ferrari
+</h1>
+
+<div class="products">
+  <div class="product" style="font-family: Georgia, serif;">
+    <div class="new-label">NOVITA'</div>
+    <img src="felpaferrari.webp" alt="Felpa">
+    <p>Felpa in scuba Ferrari</p>
+    <p><strong>€400</strong></p>
+  </div>
+  <div class="product" style="font-family: Georgia, serif;">
+    <div class="new-label">NOVITA'</div>
+    <img src="sitoportachiavi.webp" alt="Portachiavi">
+    <p>Portachiavi Second Life in pelle</p>
+    <p><strong>€140</strong></p>
+  </div>
+  <div class="product" style="font-family: Georgia, serif;">
+    <div class="new-label">NOVITA'</div>
+    <img src="vestitodonna.webp" alt="Vestito">
+    <p>Abito lungo in nappa drappeggiata</p>
+    <p><strong>€870</strong></p>
+  </div>
+  <div class="product" style="font-family: Georgia, serif;">
+    <div class="new-label">NOVITA'</div>
+    <img src="magliaf1.webp" alt="maglia f1">
+    <p>T-shirt Ferrari Hypercar AF corse</p>
+    <p><strong>€85</strong></p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; Concessionario Auto. lavoro di gruppo 2025.</p>
+</footer>
+
+</body>
+</html>
